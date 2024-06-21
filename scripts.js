@@ -17,5 +17,5 @@ document.getElementById('pending-projects').addEventListener('click', function()
 });
 
 document.getElementById('accepted-projects').addEventListener('click', function() {
-    window.location.href = 'projetos-aceitos.html';  // Troque pelo caminho correto do seu arquivo
+    window.location.href = 'https://da6zin.github.io/Empresa-VisualizarAndamento/';  // Troque pelo caminho correto do seu arquivo
 });
