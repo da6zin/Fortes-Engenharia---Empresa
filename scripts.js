@@ -8,12 +8,11 @@ document.getElementById('close-sidebar').addEventListener('click', function() {
 
 document.getElementById('home-button').addEventListener('click', function(event) {
     event.preventDefault();
-    window.location.href = 'index.html';  // Troque 'index.html' pelo caminho correto do seu arquivo
+    window.location.href = 'index.html'; 
 });
 
-// Redirecionar para outras páginas ao clicar nos botões
 document.getElementById('pending-projects').addEventListener('click', function() {
-    window.location.href = 'https://da6zin.github.io/Empresa-EnviarProjeto/';  // Troque pelo caminho correto do seu arquivo
+    window.location.href = 'https://da6zin.github.io/Empresa-EnviarProjeto/';  
 });
 
 document.getElementById('accepted-projects').addEventListener('click', function() {
